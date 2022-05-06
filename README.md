@@ -1,4 +1,4 @@
-### Git commander exercise
+## Git commander exercise
 
 ---
 
@@ -9,26 +9,40 @@ This repo is just few files for exercising git commmand with my editor, Visual S
 
 <br>
 
-#### 📌 Remote Repository
+### 📌 Initialize
 
 ---
 
-We can manage our files on our computer, local computer.
+When uplaod your project files to gihub repository, should initialize directory.
+
+**Commands:**
+
+```
+  git init
+```
+
+<br>
+
+### 📌 Remote Repository
+
+---
+
+We can manage our project files on our computer, local computer.
 However, we need to share codes when programming, especially for collaborations.
 
 Github helps us this, and it called `remote repository`
 
 **Commands:**
-`origin`:
 `github-id` : github user id
+`repository.git` : repository name in github site
 
 ```
-  gir remote add origin https://github.com/github-id/
+  gir remote add origin https://github.com/github-id/repository.git
 ```
 
 <br>
 
-#### 📌 Add file
+### 📌 Add file
 
 ---
 
@@ -42,4 +56,22 @@ If want to all updated files, just write `. (dot)` instead of each files' name.
   git add "file name"
 
   git add "."
+```
+
+<br>
+
+### 📌 Commit
+
+---
+
+After adding each or all files, we can send to file and message of our works.
+The command `commit` is same as history of our project.
+We can check the previous versions of our project or each files.
+
+`-m` : command for write messages.
+`messages` : we can use any words or sentences, however when collaboration,
+**Commands:**
+
+```
+  git commit -m "messages"
 ```
