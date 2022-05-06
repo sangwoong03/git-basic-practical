@@ -2,6 +2,16 @@
 
 ---
 
+### SUMMARY
+
+```
+$ git init
+$ git remote add orgin
+$ git add
+$ git commit
+$ git push origin master
+```
+
 I used to use GitKraken application for mananging my programming files.
 So, I found that when I am coding without like those programs, I cannot manage my code versions, even hard to share with others.
 
