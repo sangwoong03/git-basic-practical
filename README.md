@@ -11,6 +11,8 @@ $ git add
 $ git commit
 $ git push origin master
 $ git branch
+$ git switch
+$ git merge
 ```
 
 I used to use GitKraken application for mananging my programming files.
@@ -85,4 +87,69 @@ We can check the previous versions of our project or each files.
 
 ```
   git commit -m "messages"
+```
+
+<br>
+
+### 📌 Push
+
+---
+
+After we made the versions' of our projects, we can share each stages to others with `push`
+
+**Commands:**  
+`branch-name` : write the name of branch (e.g. master)
+
+```
+  git push origin "branch-name"
+```
+
+<br>
+
+### 📌 Branch
+
+---
+
+In developing process, we developers are used to program (coding) like develop and edit, or debug.
+On these steps, developers have to share their each source codes based on their original version.
+
+Branch helps us this easily.  
+Through branch, there are various ways to manage file versions and even to develop the newest another version.
+
+**Commands:**
+`name` : Select any name for branch
+
+```
+  git branch "name"
+```
+
+<br>
+
+This command is for move to each branches in repository.  
+`branch name` : Write a branch name that exist in repository to move and work in that branch.
+
+```
+  git switch "branch name"
+```
+
+<br>
+
+### 📌 Merge
+
+---
+
+In the steps of testing or debugging of project using some branches, it is essential to `merge` for testig whole codes.
+And more, if we made more developed versions or the newest one, we are likely to change the version.
+
+`Merge` can help us.
+Before we merge files, check out the branch where we are.
+**Command:**
+`branch name` : Write the name of branch choosed to merge
+
+```
+  (e.g. switch to master branch)
+
+  git swtich master
+
+  git merge "branch name"
 ```
