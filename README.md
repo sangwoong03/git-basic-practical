@@ -10,6 +10,7 @@ $ git remote add orgin
 $ git add
 $ git commit
 $ git push origin master
+$ git branch
 ```
 
 I used to use GitKraken application for mananging my programming files.
@@ -23,7 +24,7 @@ This repo is just few files for exercising git commmand with my editor, Visual S
 
 ---
 
-When uplaod your project files to gihub repository, should initialize directory.
+When uplaod your project files to gihub repository, we should initialize directory.
 
 **Commands:**
 
@@ -42,8 +43,8 @@ However, we need to share codes when programming, especially for collaborations.
 
 Github helps us this, and it called `remote repository`
 
-**Commands:**
-`github-id` : github user id
+**Commands:**  
+`github-id` : github user id  
 `repository.git` : repository name in github site
 
 ```
@@ -78,9 +79,9 @@ After adding each or all files, we can send to file and message of our works.
 The command `commit` is same as history of our project.
 We can check the previous versions of our project or each files.
 
-`-m` : command for write messages.
+**Commands:**  
+`-m` : command for write messages.  
 `messages` : we can use any words or sentences, however when collaboration,
-**Commands:**
 
 ```
   git commit -m "messages"
